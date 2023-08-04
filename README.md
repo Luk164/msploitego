@@ -10,7 +10,7 @@
 
 THIS IS A BETA RELEASE, please be nice and report any issues
 
-Whats New
+What's New
 =========
 * New Features
     * Now supporting multiple workspaces for Metasploit via Postgres queries
@@ -18,7 +18,7 @@ Whats New
     * transforms:
         * Enum Metasploit Workspaces
         * Nikto Parser [from file]
-        * Enum4linux paser from file
+        * Enum4linux parser from file
         * DNS scan
 * Bug Fixs
     * nmap based transforms returning false negative

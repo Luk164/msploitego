@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2.7
 #######################################################
 # Maltego Python Local Transform Helper               #
 #   Version 0.3                                       #
@@ -144,6 +144,8 @@ class MaltegoTransform(object):
 		if (varName in self.values.keys()):
 			if (self.values[varName] is not None):
 				return self.values[varName]
+			else:
+				raise Exception(f"Value not found for key {varName}")
 	
 	def addEntity(self,enType,enValue):
 		me = MaltegoEntity(enType,enValue)
